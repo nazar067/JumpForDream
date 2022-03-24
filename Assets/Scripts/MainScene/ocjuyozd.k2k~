@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ShopBG : MonoBehaviour
+{
+    public GameObject detectClicks;
+    public GameObject settings;
+    public GameObject sound;
+    public GameObject info;
+    void Start()
+    {
+        detectClicks.SetActive(false);
+        settings.SetActive(false);
+        sound.SetActive(false);
+        info.SetActive(false);
+    }
+    
+}
